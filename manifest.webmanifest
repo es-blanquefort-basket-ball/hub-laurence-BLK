@@ -1,0 +1,33 @@
+{
+  "id": "./laurence-hub",
+  "name": "Hub Basket Laurence",
+  "short_name": "Hub Basket",
+  "description": "Tableau de bord de pilotage ES Blanquefort Basket Ball.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f6fa",
+  "theme_color": "#14382f",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Mémo Club",
+      "short_name": "Mémo",
+      "url": "./index.html#memo-club"
+    },
+    {
+      "name": "Hub Anto & Vincent",
+      "short_name": "A&V",
+      "url": "./anto-vincent/"
+    }
+  ]
+}
